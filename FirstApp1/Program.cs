@@ -24,7 +24,7 @@ namespace FirstApp1
             }
             else if (dolarBugun>dolarDun)
             {
-                Console.WriteLine("Artış butonu")
+                Console.WriteLine("Artış butonu");
             }
             else
             {

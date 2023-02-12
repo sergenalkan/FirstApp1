@@ -51,4 +51,4 @@ namespace Metodlar
 }
 
 
-//Dont repeat yourself - DRY - Clean Code - Best Practice
+//Dont repeat yourself - DRY - Clean Code - Best Practice(En iyi/doğru uygulama teknikleri)
