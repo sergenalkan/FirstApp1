@@ -8,7 +8,7 @@ namespace Odev1
         {
             //ternary operatörü - koşullu bir ifadeyi tek satırda yazmaya yarar.
             int sayi1 = 1, sayi2 = 3;
-            var sonuc= sayi1 > sayi2 ? "yanlış" : "doğru";
+            var sonuc= sayi1 > sayi2 ? "doğru" : "yanlış";
             Console.WriteLine(sonuc);
 
             //switch - if elseye alternatif gibidir.
