@@ -40,9 +40,9 @@ namespace Gun4_Odev5
         }
              
 
-        public int ValueLength
+        public int Count
         {
-            get { return value.Length; }
+            get { return key.Length; }
         }
     }
 }

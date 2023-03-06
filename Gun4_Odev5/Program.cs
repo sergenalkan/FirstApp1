@@ -46,7 +46,7 @@ namespace Gun4_Odev5
             futbolcular2.Add(13, "Atiba");
             futbolcular2.Add(3, "Adriano");
 
-            for (int i = 0; i < futbolcular2.ValueLength; i++)
+            for (int i = 0; i < futbolcular2.Count; i++)
             {
                 Console.WriteLine("Forma No: "+futbolcular2.KeyItems[i]+" | İsim: "+futbolcular2.ValueItems[i]);
             }
