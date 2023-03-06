@@ -6,8 +6,7 @@ namespace DegerVeReferansTipler
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            
+            //int, decimal, float, double, bool(0,1) = değer tip
             int sayi1 = 10;
             int sayi2 = 30;
             sayi1 = sayi2;
@@ -21,7 +20,7 @@ namespace DegerVeReferansTipler
             sayilar2[0] = 999;
             //sayilar1[0] 999
 
-            //int, decimal, float, double, bool(0,1) = değer tip
+            
             //array, class, interface = referans tip
         }
     }
