@@ -12,9 +12,7 @@ namespace Oop2
             //if (musteri.)
             //{
 
-            //}
-            
-        
+            //}         
         }
     }
 }

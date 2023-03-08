@@ -6,10 +6,13 @@ namespace OOP3
 {
     //bütün bilgiler değişik kredilerde, böyle durumda interface yapılır
     //Okunurluk artsın diye I harfiyle başlatırız
+    //Her metod bütün sınıflarda kullanılacaksa
     interface IKrediManager
     {
         void Hesapla();
         void BiseyYap();
     }
-    //interfaceleri aynı olan, ama içerikleri farklı olan durumlarda kullanılır
+    //alternatif sistemler için bir şablon ve referans tutucu
+    
+    //interfaceleri aynı olan, ama kod içerikleri farklı olan durumlarda kullanılır
 }

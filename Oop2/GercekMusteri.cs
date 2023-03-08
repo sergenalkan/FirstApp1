@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Oop2
 {
-    //Individual
+    //Individual - gerçek müşteri
     class GercekMusteri:Musteri //müşterinin çocuğu demektir, müşteri ebeveyn
     {
         public string TcNo { get; set; }

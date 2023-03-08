@@ -7,7 +7,7 @@ namespace Oop2
         static void Main(string[] args)
         {
             //Bir nesnede bir yeri kullanmak zorunda değilsen kullanma
-            //Matematiksel işlem yoksa metinsel yap, daha verimli olur
+            //Matematiksel işlem yoksa metinsel yap, daha verimli olur | int-string
             //Engin Demiroğ
             GercekMusteri musteri1 = new GercekMusteri();
             musteri1.Id = 1;
@@ -28,6 +28,7 @@ namespace Oop2
 
 
             //new görürsen ref.no olduğunu anla 
+            //Musteri sınıfı hem gerçek hem de tüzeli görebiliyor
             Musteri musteri3 = new GercekMusteri();
             Musteri musteri4 = new TuzelMusteri();
 

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace OOP3
 {
@@ -13,7 +12,7 @@ namespace OOP3
 
         public void Hesapla()
         {
-            Console.WriteLine("KK hesaplandı");
+            Console.WriteLine("Konut kredisi ödemesi hesaplandı");
         }
     }
 }

@@ -9,8 +9,8 @@ namespace OOP3
         //Method injection: hangi yöntemi seçeceğini enjekte ediyoruz
         public void BasvuruYap(IKrediManager krediManager, List<IloggerService> loggerServices)
         {
+            //Başvuran bilgilerini değerlendir
             //Bütün design patternler burda anlaşılır
-            //Başvuranbilgilerini değerlendir
             //
             //Bütün başvurular konut kredisine göre olur, hatalı olur
             //KonutKrediManager konutKrediManager = new KonutKrediManager();
