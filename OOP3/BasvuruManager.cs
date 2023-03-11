@@ -19,10 +19,8 @@ namespace OOP3
             foreach (var loggerService in loggerServices)
             {
                 loggerService.Log();
-            }
-            
+            }            
         }
-
         public void KrediOnBilgilendirmeYap(List<IKrediManager> krediler)
         {
             foreach (var kredi in krediler)
