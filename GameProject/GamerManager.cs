@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GameProject
 {
-    //MicroService
+    //MicroService: başka bir servis kullanacaz demektir
     class GamerManager : IGamerService
     {
         IUserValidationService _userValidationService;
@@ -19,6 +19,10 @@ namespace GameProject
             if (_userValidationService.Validate(gamer)==true)
             {
                 Console.WriteLine("Kayıt oldu");
+            }
+            else
+            {
+                Console.WriteLine("Kayıt Başarısız, Doğrulama başarısız.");
             }
             
         }

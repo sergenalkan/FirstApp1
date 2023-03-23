@@ -45,7 +45,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gun5_InterfacesDemo", "Inte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gun5_Inheritance", "Gun5_Inheritance\Gun5_Inheritance.csproj", "{90336273-CC5D-4182-A905-3F5B1748EB31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun5_Odev3-4", "Gun5_Odev3-4\Gun5_Odev3-4.csproj", "{D7469A1C-DF08-4819-9871-548F1CFFBA3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gun5_Odev3-4", "Gun5_Odev3-4\Gun5_Odev3-4.csproj", "{D7469A1C-DF08-4819-9871-548F1CFFBA3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
